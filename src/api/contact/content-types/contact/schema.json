@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contacts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phones": {
+      "type": "json"
+    },
+    "address": {
+      "type": "string"
+    },
+    "workingHours": {
+      "type": "json"
+    },
+    "additionalSchedule": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
