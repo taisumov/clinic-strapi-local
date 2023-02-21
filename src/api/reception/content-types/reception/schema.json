@@ -12,11 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "href": {
-      "type": "string"
-    },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "price_lists": {
       "type": "relation",

@@ -43,6 +43,12 @@
       "relation": "oneToMany",
       "target": "api::reception.reception",
       "mappedBy": "subcategory"
+    },
+    "doctors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::doctor.doctor",
+      "mappedBy": "subcategory"
     }
   }
 }

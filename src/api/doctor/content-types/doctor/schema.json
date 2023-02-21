@@ -40,6 +40,22 @@
       "relation": "oneToMany",
       "target": "api::grade.grade",
       "mappedBy": "doctor"
+    },
+    "subcategory": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::subcategory.subcategory",
+      "inversedBy": "doctors"
+    },
+    "educations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::education.education",
+      "mappedBy": "doctor"
+    },
+    "name": {
+      "type": "string",
+      "unique": false
     }
   }
 }
