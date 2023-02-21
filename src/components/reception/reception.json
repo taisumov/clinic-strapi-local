@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_reception_receptions",
+  "info": {
+    "displayName": "Reception"
+  },
+  "options": {},
+  "attributes": {
+    "PriceList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "price-list.price-list"
+    },
+    "href": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

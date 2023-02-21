@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_lists",
+  "info": {
+    "singularName": "price-list",
+    "pluralName": "price-lists",
+    "displayName": "PriceList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "reception": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::reception.reception",
+      "inversedBy": "price_lists"
+    }
+  }
+}
