@@ -18,6 +18,9 @@
     "pg": "8.8.0",
     "strapi-plugin-populate-deep": "^2.0.0"
   },
+  "browser": {
+    "invariant": false
+  },
   "author": {
     "name": "A Strapi developer"
   },
